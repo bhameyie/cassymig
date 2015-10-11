@@ -1,10 +1,11 @@
 package migration
 
 import (
-	"cassymig/files"
-	"cassymig/versioning"
 	"fmt"
 	"time"
+
+	"github.com/bhameyie/cassymig/files"
+	"github.com/bhameyie/cassymig/versioning"
 )
 
 //MigrateDown reverts an existing schema to the previously know version

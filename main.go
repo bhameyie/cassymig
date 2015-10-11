@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"cassymig/files"
-	"cassymig/migrate"
-	"cassymig/versioning"
+	"github.com/bhameyie/cassymig/files"
+	"github.com/bhameyie/cassymig/migrate"
+	"github.com/bhameyie/cassymig/versioning"
 
 	"github.com/gocql/gocql"
 )

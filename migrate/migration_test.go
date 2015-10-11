@@ -1,10 +1,11 @@
 package migration
 
 import (
-	"cassymig/files"
 	"errors"
 	"testing"
 	"time"
+
+	"github.com/bhameyie/cassymig/files"
 
 	. "gopkg.in/check.v1"
 )
